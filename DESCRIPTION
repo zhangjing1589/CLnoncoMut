@@ -1,0 +1,15 @@
+Package: CLnoncoMut
+Type: Package
+Title: The Package to Find Clustered Noncoding Mutations in Cancer Genome
+Version: 0.1
+Authors@R: "Jing Zhang <zhangjing_zj@126.com> [aut, cre]"
+Description: This pacakge is developed to find clustered somatic mutation patterns for noncoding DNA in cancer genome and prioritize functional recurrent noncoding mutations 
+Depends: R (>= 3.3.1)
+Imports:
+	data.table,
+	reshape
+License: GPLv2
+Encoding: UTF-8
+LazyData: TRUE
+Data: 2018-04-25
+RoxygenNote: 6.0.1
